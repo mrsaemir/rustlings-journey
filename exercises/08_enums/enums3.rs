@@ -3,7 +3,7 @@
 // Address all the TODOs to make the tests pass!
 //
 // Execute `rustlings hint enums3` or use the `hint` watch subcommand for a
-// hint.
+// hint.y
 
 // I AM NOT DONE
 
@@ -44,6 +44,12 @@ impl State {
         // TODO: create a match expression to process the different message variants
         // Remember: When passing a tuple as a function argument, you'll need extra parentheses:
         // fn function((t, u, p, l, e))
+        match message {
+            case ChangeColor(u8, u8, u8) {
+
+            },
+            
+        }
     }
 }
 
